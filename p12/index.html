@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Typing Game</title>
+</head>
+<body>
+    <button class="settings-btn" id="setting-btn">
+        <i class="fa fa-cog"></i>
+    </button>
+    
+    <div class="settings" id="settings">
+        <form id="settings-form">
+            <div>
+                <label for="difficulty">Difficulty</label>
+                <select id="difficulty">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Fast Typing</h2>
+        <small>Type the word below:</small>
+
+
+        <h1 id="word">Axiom</h1>
+
+        <input type="text" id="text" placeholder="Enter the word above">
+
+        <p class="time-container">
+            Time: <span class="time">15s</span>
+        </p>
+
+        <p class="score-container">
+            Score: <span id="score">0</span>
+        </p>
+    </div>
+    <div class="end-game-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
