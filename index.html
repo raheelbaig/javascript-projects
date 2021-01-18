@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Java Script Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 </head>
 <body>
-   <h1> My Java Script Project's</h1>
-<ol>
-   <li><a href="/p01/index.html">HTML FORM Validation</a></li>
-   <li><a href="/p02/index.html">Seat selection at movie thater</a></li>
-   <li><a href="/p03/index.html">video player</a></li>
-</ol>
+<nav>
+   <section id="for-logo">RAHEEL_BAIG<span></span></section>
+   <section id="for-list">
+      <ul>
+         <li>Home</li>
+         <li>Skills</li>
+         <li>Projects</li>
+         <li>Contact us</li>
+      </ul>
+   </section>
+   <section id="for-bar" onclick="document.getElementById('for-bar-shown').style.display = 'flex'">
+      <i class="fa fa-bars"></i>
+   </section>
+</nav>
+<section id="for-bar-shown" onclick="document.querySelector('for-bar-shown').style.display = 'none'">
+   <div>
+      <i class="fa fa-times"></i>
+   </div>
+   <ul>
+      <li><span>Home</span><span></span></li>
+      <li><span>Skills</span><span></span></li>
+      <li><span>Projects</span><span></span></li>
+      <li><span>Contact us</span><span></span></li>
+   </ul>
+</section>
+<div class="java-projects">
+   <h1 id="heading"> My Java Script Project's</h1>
+   <div class="projects">
+      <ol>
+         <li><a href="/p01/index.html">HTML FORM Validation</a></li>
+         <li><a href="/p02/index.html">Seat selection at movie thater</a></li>
+         <li><a href="/p03/index.html">video player</a></li>
+         <li><a href="/p04/index.html">Excahange rate calculator</a></li>
+         <li><a href="/p06/index.html">Landing Page</a></li>
+         <li><a href="/p07/index.html">Hangman</a></li>
+         <li><a href="/p10/index.html">music player</a></li>
+         <li><a href="/p05/index.html">High Order Array Method</a></li>
+         <li><a href="/p012/index.html">Fast Typing Game</a></li>
+         <li><a href="/p014/index.html">Web Speech</a></li>
+         <li><a href="/p015/index.html">Search Lyrics</a></li>
+      </ol>
+   </div>
+   
+</div>
+
 </body>
 </html>

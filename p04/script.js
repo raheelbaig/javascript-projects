@@ -26,7 +26,7 @@ function calculate() {
         });
 }
 
-//Flip Funvtion for hte flip button to reverse currency
+//Flip Funvtion for the flip button to reverse currency
 function flip() {
     const temp = currOnePicker.value;
     currOnePicker.value = currTwoPicker.value;
